@@ -1,0 +1,119 @@
+:root {
+  --dark: #000000;
+  --white: #ffff;
+  --violet: #4E2861;
+  --purple: #794590;
+  --lavender: #CCA5D5;
+  --lilac: #D38DC9;
+  --magenta: #c03667;
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 3rem;
+  color: #c03667;
+  padding: 0 1rem 0 1rem;
+  margin: 0 1rem 0.5rem 1rem;
+}
+
+
+.contatomain {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.formContainer {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+.form {
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formInput {
+  width: 100%;
+  padding: 12px 32px;
+  border: 1px solid var(--lavender);
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 1rem;
+}
+
+.formTextArea {
+  width: 100%;
+  height: 25%;
+  padding: 12px 32px;
+  border: 1px solid var(--lavender);
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 1rem;
+}
+
+
+.formButton {
+  background-color: var(--lavender);
+  border: none;
+  color: var(--violet);
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 1rem;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--violet);
+}
+
+
+.formButton:hover {
+  background-color: var(--violet);
+  color: var(--lavender);
+}
+
+.criadora {
+  color: var(--lavender);
+  text-align: center;
+  margin-top: -50;
+  padding: 0;
+  cursor: pointer;
+}
+.autora{
+  width: 400px;
+  height: 400px;
+  margin-left: 0;
+  padding: 0;
+}
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.redesocias{
+  margin-top: -6rem;
+  padding: 0;
+}
+
+.redesociasIcone{
+  width: 90px;
+  height: 90px;
+
+}

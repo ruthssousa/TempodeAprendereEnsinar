@@ -1,0 +1,40 @@
+.pageTitle {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #c03667;
+  padding: 0 1rem 1rem 1rem;
+  margin: 0 1rem 0.5rem 1rem;
+}
+
+.CursoHeaderContainer {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.CursoHeaderItem {
+  list-style: none;
+  background-color: var(--lavender);
+  font-size: 1.2rem;
+  border-radius: 23px;
+  padding: 0 10px;
+  margin: 0;
+  width: 120px;
+  text-align: center;
+}
+
+.CursoHeaderLink {
+  text-decoration: none;
+  color: var(--violet);
+}
+
+@media(max-width: 765px) {
+  .menuContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

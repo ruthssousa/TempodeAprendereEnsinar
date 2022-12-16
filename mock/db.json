@@ -1,0 +1,28 @@
+{
+    "duvidas": [
+        {
+            "id": 1,
+            "category": "Tarefa 01",
+            "question": "Tarefa 01",
+            "answer": "Tarefa 01",
+            "image": "Tarefa 01",
+            "videoLink": "Tarefa 01"
+        },
+        {
+            "id": 2,
+            "category": "Tarefa 01",
+            "question": "Tarefa 01",
+            "answer": "Tarefa 01",
+            "image": "Tarefa 01",
+            "videoLink": "Tarefa 01"
+        },
+        {
+            "id": 3,
+            "category": "Tarefa 01",
+            "question": "Tarefa 01",
+            "answer": "Tarefa 01",
+            "image": "Tarefa 01",
+            "videoLink": "Tarefa 01"
+        }
+    ]
+}

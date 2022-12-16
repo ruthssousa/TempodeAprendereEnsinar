@@ -1,0 +1,59 @@
+:root {
+  --dark: #000000;
+  --white: #ffff;
+  --violet: #4E2861;
+  --purple: #794590;
+  --lavender: #CCA5D5;
+  --lilac: #D38DC9;
+  --magenta: #c03667;
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 3rem;
+  color:#c03667;
+  padding: 0 1rem 0 1rem;
+  margin: 0 1rem 0.5rem 1rem;
+}
+
+.duvidasGeral {
+  display: flex;
+  color: var(--violet);
+  margin-bottom: 5rem;
+}
+
+.duvidas {
+  width: 75vw;
+  padding: 2rem;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 25px;
+  text-align: left;
+
+}
+
+.pergunta {
+  background-color: var(--violet);
+  color: var(--lavender);
+  padding: 0.7rem;
+  width: 65px;
+  margin: 1rem;
+}
+
+.respostas {
+  background-color: var(--violet);
+  color: var(--lavender);
+  padding: 0.7rem;
+  width: 65px;
+  margin: 1rem;
+}
+
+.temas {}
+
+.tema {
+  background-color: var(--lavender);
+  border-radius: 18px;
+  margin: 0.5rem;
+  padding: .7rem;
+  text-align: center;
+}

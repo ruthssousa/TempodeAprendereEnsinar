@@ -1,0 +1,90 @@
+:root {
+  --dark: #000000;
+  --white: #ffff;
+  --violet: #4E2861;
+  --purple: #794590;
+  --lavender: #CCA5D5;
+  --lilac: #D38DC9;
+  --magenta: #BA63A3;
+}
+
+.inicioMain {
+  background-color: var(--lavender);
+  background-image: url('./giphy.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  width: 100vw;
+  height: 75vh;
+  color: var(--violet);
+  padding: 3vh 0 0 2vw;
+}
+
+.inicioImg {
+  width: 80vw;
+  height: 70vh;
+}
+
+.inicioResources {
+  background-color: var(--white);
+  display: flex;
+  color: var(--violet);
+  font-size: 1.77rem;
+  text-align: center;
+  padding: 0;
+
+}
+
+.inicioCursos {
+  border: solid 2px var(--lilac);
+  width: 50vw;
+  height: 60vh;
+  padding: 2rem 0 0 0;
+  margin: 1.7rem;
+  padding-top: 5rem;
+
+}
+
+.imgTechnologys {
+  display: inline;
+
+}
+
+.imgTechnology {
+  width: 150px;
+  margin-top: 3rem;
+  padding: 0;
+}
+.inicioEnsineP{
+  margin: 0;
+  padding: 0;
+}
+
+.inicioEnsine {
+  color: var(--dark);
+  width: 50vw;
+  height: 65vh;
+  padding: 5rem 0 0 8rem;
+  margin: 1rem;
+  background-image: url("professor.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+
+.inicioCollaborator {
+  width: 100vw;
+  height: 100vh;
+  padding: 10vh 0 0 0;
+  margin: 1rem;
+  color: var(--violet);
+  font-size: 1.7rem;
+  text-align: center;
+  background-image: url("professor.jpg");
+  background-color: var(--lavender);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: none;
+}

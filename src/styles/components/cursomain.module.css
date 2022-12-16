@@ -1,0 +1,96 @@
+:root {
+    --dark: #000000;
+    --white: #ffff;
+    --violet: #4E2861;
+    --purple: #794590;
+    --lavender: #CCA5D5;
+    --lilac: #D38DC9;
+    --magenta: #c03667;
+}
+
+.cursoContainer {
+    margin: 2rem;
+    justify-items: center;
+}
+
+.cursoInformation {
+    display: flex;
+    width: 1150px;
+    height: 100px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.imgCurso {
+    margin-right: 3rem;
+    height: 150px;
+}
+
+.cursoTitle {
+    font-size: 2.5rem;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.cursoText {
+    font-size: 1.3rem;
+    padding: 0;
+    margin: 0;
+}
+
+.cursoPlay, .cursoTestes {
+    display: flex;
+    border: var(--lavender) solid 1px;
+    padding: 1rem 3rem;
+    margin: 0.5rem 2rem; 
+    align-items: center;
+}
+
+.cursoAulaTitulo,
+.cursoAula,
+.cursoTeste {
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+}
+.cursoButton{
+    float: right;
+}
+.cursoExpandir {
+    color: var(--violet);
+    font-size: 1.2rem;
+    border: var(--lavender) solid 1px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    grid-area: 4 / 16;
+    display: inline-block;
+}
+.right{
+    text-align: right;
+
+}
+.cursoVideo {
+    width: 600px;
+    height: 300px;
+    padding: 1rem;
+    margin-left: 6rem; 
+    align-items: center;
+    text-align: center;
+}
+
+.cursoEnd {
+    background: rgb(78, 40, 97);
+    background: linear-gradient(36deg, rgba(78, 40, 97, 1) 26%, rgba(204, 165, 213, 0) 62%);
+    padding: 1rem;
+    margin: 1rem;
+    width: 1150px;
+    height: 40px;
+}
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}

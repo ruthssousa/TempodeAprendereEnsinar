@@ -1,0 +1,49 @@
+:root {
+  --dark: #000000;
+  --white: #ffff;
+  --violet: #4E2861;
+  --purple: #794590;
+  --lavender: #CCA5D5;
+  --lilac: #D38DC9;
+  --magenta: #814056;
+}
+
+.menuHeader{
+  display: flex;
+}
+
+.logo{
+  width: 160px;
+  height: 120px;
+
+}
+
+.menuContainer {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1.3rem;
+  padding-left: 35rem;
+}
+
+.menuItem {
+  list-style: none;
+  background: #c03667;
+  padding: 0.5rem 1rem;
+  border-radius: 18px;
+}
+
+.menuLink {
+  text-decoration: none;
+  color: var(--dark);
+  font-size: 1.5rem;
+}
+
+@media(max-width: 765px) {
+  .menuContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
