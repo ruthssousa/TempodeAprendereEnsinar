@@ -22,8 +22,9 @@
 }
 
 .imgCurso {
-    margin-right: 3rem;
+    margin: -0.9rem 3rem 0 0;
     height: 150px;
+    border-radius: 10px;
 }
 
 .cursoTitle {
@@ -38,6 +39,9 @@
     margin: 0;
 }
 
+.cursoTestes  {
+    display: none;
+}
 .cursoPlay, .cursoTestes {
     display: flex;
     border: var(--lavender) solid 1px;

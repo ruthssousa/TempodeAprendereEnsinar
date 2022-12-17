@@ -10,7 +10,7 @@ export function Menu() {
 
       <ul  className={styles.menuContainer}>
         <li className={styles.menuItem}>
-          <Link className={styles.menuLink} to="/">Home</Link>
+          <Link className={styles.menuLink} to="/">Início</Link>
         </li>
         <li className={styles.menuItem}>
           <Link className={styles.menuLink} to="/cursos">Cursos</Link>

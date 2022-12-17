@@ -17,21 +17,21 @@ export function Cursos() {
           <Link className={styles.cursoLink} to="/Computador">
             <img className={styles.imgTechnology} src={technology1} alt="" />
             <h4 className={styles.cursoTitle}>Computador</h4></Link>
-          <p>Informações para iniciantes ou idosos que queiram se atrever no mundo virtual com segurança.</p>
+          <p>Aprenda a usar o computador, navegar na internet: acessar sites, ouvir músicas e ver vídeos, pesquisar no Google, como traduzir textos, como jogar, criar um e-mail e se comunicar, ver avaliações de empresas, questões sobre segurança e muito mais.</p>
         </div>
 
         <div className={styles.cursos}>
           <Link className={styles.cursoLink} to="/Celular">
             <img className={styles.imgTechnology} src={technology2} alt="" />
             <h4 className={styles.cursoTitle}>Celular</h4></Link>
-          <p>Informações para iniciantes ou idosos que queiram se atrever no mundo virtual com segurança.</p>
+          <p>Aprenda a usar o celular: como ligar e desligar, como usar os aplicativos, como conversar com as pessoas, tirar fotos, carregar o aparelho e muito mais.</p>
         </div>
 
         <div className={styles.cursos}>
           <Link className={styles.cursoLink} to="/Outros">
             <img className={styles.imgTechnology} src={technology3} alt="" />
             <h4 className={styles.cursoTitle}>Outros</h4></Link>
-          <p>Informações para iniciantes ou idosos que queiram se atrever no mundo virtual com segurança.</p>
+          <p>Aprenda a usar Smar Tv, Smartwatch e WhatsApp: Com o relógio inteligente e Smart TV acessar a internet. No WhatsApp se conectar com diversas pessoas.</p>
 
         </div>
       </div>

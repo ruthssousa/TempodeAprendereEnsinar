@@ -2,11 +2,10 @@ import { useState } from 'react'
 import styles from '../styles/pages/contato.module.css'
 
 
-import autora from '../assets/autora.png'
+import autora from '../assets/autoraImg.png'
 import redeSociasIcone1 from '../assets/1.png'
 import redeSociasIcone2 from '../assets/2.png'
 import redeSociasIcone3 from '../assets/3.png'
-import redeSociasIcone4 from '../assets/4.png'
 
 export function Contato() {
 
@@ -63,7 +62,8 @@ export function Contato() {
         </form>
 
         <div className={styles.criadora}>
-          <img type="button" onClick={toggleVisible} className={styles.cursoExpandir} className={styles.autora} src={autora} alt="" />
+          <img type="button" onClick={toggleVisible} className={styles.criadoraImg} src={autora} alt="" />
+
           <div className={`${styles.redesocias} ${isVisible ? styles.show : styles.hidden}`}>
             <a href="https://github.com/ruthssousa">
               <img className={styles.redesociasIcone} src={redeSociasIcone1} alt="icone do github na cor preta" />
@@ -73,10 +73,7 @@ export function Contato() {
             </a>
             <a href="https://codepen.io/ruthssousa">
               <img className={styles.redesociasIcone} src={redeSociasIcone3} alt="icone do codepen na cor preta" />
-            </a>
-            <a href="https://www.instagram.com/ruth.ruth.ss/">
-              <img className={styles.redesociasIcone} src={redeSociasIcone4} alt="icone do instragram na cor preta" />
-            </a>
+            </a>       
           </div>
         </div>
       </section>

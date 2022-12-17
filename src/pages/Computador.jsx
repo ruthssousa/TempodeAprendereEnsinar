@@ -1,4 +1,4 @@
-import styles from '../styles/pages/computador.module.css'
+import styles from '../styles/pages/curso.module.css'
 import React, { useState } from "react"
 
 import { CursoHeader } from '../components/CursoHeader'
@@ -9,7 +9,6 @@ import { CursoTest } from '../components/CursoTest'
 import capa1 from '../assets/capaCursoComputador1.png'
 import capa2 from '../assets/capaCursoComputador2.png'
 import capa3 from '../assets/capaCursoComputador3.png'
-
 
 export function Computador() {
     function toggleVisible() {

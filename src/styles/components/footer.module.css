@@ -5,17 +5,16 @@
   --purple: #794590;
   --lavender: #CCA5D5;
   --lilac: #D38DC9;
-  --magenta: #BA63A3;
-}
+  --magenta: #c03667;
+  }
 
 .footerContainer {
-    padding: 0;
-    margin: 0;
+    padding-top: 1.6rem;
+    margin: 1rem -1rem -1rem -1rem;
     background: var(--lavender);
-    display: flex;
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    gap: 0;
+    align-items: center;    
     height: 5rem;
     /*position: fixed;*/
   }

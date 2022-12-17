@@ -1,0 +1,46 @@
+:root {
+    --dark: #000000;
+    --white: #ffff;
+    --violet: #4E2861;
+    --purple: #794590;
+    --lavender: #CCA5D5;
+    --lilac: #D38DC9;
+    --magenta: #c03667;
+  }
+  
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+.cursoExpandir{
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    background-color: var(--lavender);
+    border-radius: 8px;
+    border: solid var(--violet) 2px;
+    width: 11rem;
+    display:block;
+    cursor: pointer;
+}
+.buttonComeca{
+    text-align: right;
+    float: right;
+    justify-items: right;
+    display: inline-block;
+    text-align: center;
+    align-items: center;    
+    margin: -3rem 8rem 0 0;
+    
+    
+}
+.capaCurso{
+    padding: 0;
+    padding-bottom: 0.5rem;
+    margin: 1rem;
+    background: rgb(78, 40, 97);
+    background: linear-gradient(225deg, rgba(78, 40, 97, 1) 26%, rgba(204, 165, 213, 0) 62%);
+    border-radius: 8px;
+}
