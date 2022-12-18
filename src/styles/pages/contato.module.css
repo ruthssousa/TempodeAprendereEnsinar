@@ -100,6 +100,7 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   margin: -3.5rem 0 1rem 2rem;
   padding: 1rem;
   cursor: pointer;
+  display: flex;
 }
 
 .show {
@@ -111,9 +112,12 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 }
 
 .redesocias{
-  margin-top: -9rem;
+  margin: 1rem;
   padding: 0;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .redesociasIcone{

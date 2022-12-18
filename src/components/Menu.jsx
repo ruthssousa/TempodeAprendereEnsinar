@@ -15,9 +15,9 @@ export function Menu() {
         <li className={styles.menuItem}>
           <Link className={styles.menuLink} to="/cursos">Cursos</Link>
         </li>
-        <li className={styles.menuItem}>
-          <Link className={styles.menuLink} to="/duvidas">Duvidas</Link>
-        </li>
+        {/*<li className={styles.menuItem}>
+          <Link className={styles.menuLink} to="/duvidas">Dúvidas</Link>
+  </li>*/}
         <li className={styles.menuItem}>
           <Link className={styles.menuLink} to="/contato">Contato</Link>
         </li>

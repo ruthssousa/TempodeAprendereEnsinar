@@ -2,7 +2,7 @@ import { useState } from 'react'
 import styles from '../styles/pages/contato.module.css'
 
 
-import autora from '../assets/autoraImg.png'
+import autora from '../assets/autoraImg1.png'
 import redeSociasIcone1 from '../assets/1.png'
 import redeSociasIcone2 from '../assets/2.png'
 import redeSociasIcone3 from '../assets/3.png'
@@ -62,7 +62,7 @@ export function Contato() {
         </form>
 
         <div className={styles.criadora}>
-          <img type="button" onClick={toggleVisible} className={styles.criadoraImg} src={autora} alt="" />
+          <img type="button" onClick={toggleVisible} className={styles.criadoraImg} src={autora} alt="Rosto de mulher negra de cabelos curtos e blusa azul." />
 
           <div className={`${styles.redesocias} ${isVisible ? styles.show : styles.hidden}`}>
             <a href="https://github.com/ruthssousa">
